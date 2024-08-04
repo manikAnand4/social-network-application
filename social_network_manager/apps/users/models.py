@@ -1,7 +1,5 @@
 from django.contrib.auth.models import AbstractUser
-from django.contrib.postgres.indexes import GinIndex, OpClass
 from django.db import models
-from django.db.models.functions import Upper
 
 from apps.users import constants as user_constants
 from apps.commons import models as commons_models
