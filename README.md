@@ -8,11 +8,10 @@ ReadME
 1. Project Setup:
 
     * Clone the project in your local machine
-    * Run the command to build docker image (Make sure you are in the directory where   you have the docker-compose.yml file)
+    * Run the command to build docker image (Make sure you are in the directory where you have the docker-compose.yml file. Make sure you have docker compose installed locally on your machine)
         ```
         docker compose build --no-cache
         ```
-        Make sure you have docker compose installed locally on your machine
     * Run the service
         ```
         docker compose up
@@ -23,6 +22,7 @@ ReadME
 
 2.  Postman API Collection Link
     * https://drive.google.com/file/d/1nCVnpghumMEhPC-Enxc7xLVnNBxU5l4u/view
+    * You can Also refer to postman_collection.json file for the same in the code base
 
 3.  API Config & details
     *   User SignUp API
